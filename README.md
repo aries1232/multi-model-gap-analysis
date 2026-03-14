@@ -2,7 +2,7 @@
 
 A lightweight document comparison tool that aligns reference and test documents, detects handwritten/text regions, and reports missing fields page by page.
 
-## Minimal System Design
+##  System Design
 
 ```mermaid
 flowchart LR
