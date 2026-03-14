@@ -1,0 +1,23 @@
+# Python cache and env
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Local runtime artifacts
+tmp/
+output_results/
+
+# Data artifacts
+data/
+
+# Keep only the model needed by Streamlit app
+weights/*.pt
+!weights/best.pt
